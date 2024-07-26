@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 100; */
+  background-color: hsl(0, 0%, 98%);
+}
+
+header {
+  width: 450px;
+  /* background-color: red; */
+  text-align: center;
+  /* margin-top: 20px; */
+  margin: 0 auto;
+}
+
+header h3 {
+  margin-top: 20px;
+  color: hsl(234, 12%, 34%);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+header h4 {
+  margin-top: 20px;
+  /* color: hsl(234, 12%, 34%); */
+  color: hsl(229, 6%, 66%);
+
+  font-size: 20px;
+  font-weight: 400;
+}
+
+header p {
+  margin-top: 20px;
+  color: hsl(229, 6%, 66%);
+}
+
+.team {
+  width: 300px;
+  height: 190px;
+  background-color: white;
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 5px solid hsl(0, 78%, 62%);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+}
+
+.team h3,
+.supervisor h3,
+.calculator h3,
+section h3 {
+  margin-top: 10px;
+  color: hsl(234, 12%, 34%);
+  margin-left: 15px;
+}
+
+.team p,
+.supervisor p,
+.calculator p,
+section p {
+  color: hsl(229, 6%, 66%);
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.team img,
+section img {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  gap: 400px;
+}
+
+.supervisor {
+  width: 300px;
+  height: 190px;
+  background-color: white;
+  margin-top: -80px;
+  border-top: 5px solid hsl(180, 62%, 55%);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+}
+
+.supervisor img,
+.calculator img {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+}
+
+.calculator {
+  width: 300px;
+  height: 190px;
+  background-color: white;
+  margin-top: -80px;
+  border-top: 5px solid hsl(212, 86%, 64%);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+}
+
+section {
+  width: 300px;
+  height: 190px;
+  background-color: white;
+  border-top: 5px solid hsl(34, 97%, 64%);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: -90px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+
+}
